@@ -2,6 +2,6 @@
 names=$1
 for name in $names
 do
-grep $name $2
+grep -w $name $2
 done
 echo All done

@@ -25,6 +25,8 @@ Y	-.--
 ```
 ---
 
+Answer: sh morse_code_script_ML1.sh "E M I L Y" morse.txt
+
 ## __Write__
 a second well commented shell script called morse_code_script_<your_ initials>2.sh that does the following to the file /u/home/class/c177/c177-i0/classdata/Homework_data/data-shell/data/morse.txt:
 
@@ -41,6 +43,8 @@ E	. M	--  I	..  L	.-..  Y	-.--
 ```
 
 The white space between letters / morse code sets is a tab.  e.g `E	.\tM	--\tI	..\tL	.-..\tY	-.--`
+
+Answer: sh morse_code_script_ML2.sh "E M I L Y" morse.txt | tr -d
 
 ## __How you submit your answers__  
 Include all the scripts you wrote in this repository.
